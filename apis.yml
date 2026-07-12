@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://ouvert.canada.ca/data/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/ouvert-canada-ca-domain-security.yml
   - type: Website
     url: https://ouvert.canada.ca/data
   - type: Documentation
